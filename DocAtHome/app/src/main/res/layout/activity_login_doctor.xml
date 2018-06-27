@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Login">
-
+    tools:context=".LoginDoctor">
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="0dp"
@@ -76,10 +75,11 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:gravity="center"
-            android:onClick="doctor"
-            android:text="Ingresar como doctor"
+            android:onClick="paciente"
+            android:text="Ingresar como paciente"
             android:textColor="@android:color/white" />
 
     </LinearLayout>
+
 
 </android.support.constraint.ConstraintLayout>
