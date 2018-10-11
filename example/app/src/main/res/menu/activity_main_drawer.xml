@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+
+    >
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_calculator"
+            android:icon="@drawable/ic_menu_calculator2"
+            android:title="Calculadora Asesor"
+            />
+        <item
+            android:id="@+id/nav_amc"
+            android:icon="@drawable/ic_menu_amc"
+            android:title="Calculadora AMC" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Documentos" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Slideshow" />
+        <item
+            android:id="@+id/nav_dollar"
+            android:icon="@drawable/ic_menu_calculator"
+            android:title="Calculadora de Dólares" />
+    </group>
+
+    <item android:title="Communícate"
+
+        >
+        <menu>
+            <item
+                android:id="@+id/nav_web"
+                android:icon="@drawable/ic_menu_web"
+                android:title="Páginas Web" />
+        </menu>
+    </item>
+
+</menu>
